@@ -7,9 +7,15 @@
     box-sizing: border-box;
     
     }
-body{
-    background-color: black;
-}
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column; 
+        background-color: black;
+    }
+    
+
 
 .text {
     margin: 2rem;
@@ -18,11 +24,20 @@ body{
 }
 
 .title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     color: blueviolet;
     margin: 1.5rem;
 }
 #image{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     height: 250px;
     width: 400px;
     margin: 5px;
+}
+section{
+    width: 100vh;
 }
