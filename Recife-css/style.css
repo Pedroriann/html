@@ -1,0 +1,28 @@
+* {
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    }
+body{
+    background-color: black;
+}
+
+.text {
+    margin: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.title{
+    color: blueviolet;
+    margin: 1.5rem;
+}
+#image{
+    height: 250px;
+    width: 400px;
+    margin: 5px;
+}
